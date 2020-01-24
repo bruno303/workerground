@@ -1,0 +1,13 @@
+{
+  "name": "workerground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "node ./build/test/server.js"
+  }
+}

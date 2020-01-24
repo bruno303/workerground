@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "allowJs": false,
+        "alwaysStrict": true,
+        "target": "ES2017",
+        "outDir": "./build"
+    },
+    "include": [
+        "./src/**/*", "index.ts"
+    ],
+    "exclude": [
+        "./node_modules",
+        "./build"
+    ],
+    "typeAcquisition": {"enable": true}
+}
